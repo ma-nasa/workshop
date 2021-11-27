@@ -49,12 +49,13 @@ Open Readme File
 * Branch
 
 ## Nested List
-1.Name
-  1.First
-  2.Last
-  3.Middle Name
-2.Github
-  1.Username
-  2.mail id
-  3.password
+1. Name
+    1. First
+    2. Last
+    3. Middle Name 
+  
+2. Github
+    1. Username
+    2. mail id
+    3. password
   
