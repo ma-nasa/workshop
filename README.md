@@ -32,3 +32,29 @@ Open Readme File
 [7|Manasa|Cse|537]
 [8|Manoj|Cse|538]
 [9|Prasanthi|Cse|539]
+
+# List
+## ordered list
+1. Name
+2. roll number
+3. branch
+4. college
+## unordered list
+- Name
+- roll number
+- branch
+
+* Name
+* Roll Number
+* Branch
+
+## Nested List
+1.Name
+  1.First
+  2.Last
+  3.Middle Name
+2.Github
+  1.Username
+  2.mail id
+  3.password
+  
