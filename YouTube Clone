@@ -1,0 +1,1020 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Youtube Channel</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="../images/menu.png" class="menu-icon">
+            <img src="../images/logo1.png" class="logo1">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+              <input type="text" placeholder="Search">
+              <img src="../images/search.png">
+            </div>
+            <img src="../images/voice-search.png" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="../images/upload.png">
+            <img src="../images/more.png">
+            <img src="../images/notification.png">
+            <img src="../images/w.png" class="user-icon">
+        </div>
+    </nav>
+    <!-------------------sidebar--------->
+<div class="sidebar">
+    <div class="shortcut-links">
+        <a href=""><img src="../images/home.png"><p>Home</p></a>
+        <a href=""><img src="../images/explore.png"><p>Explore</p></a>
+        <a href=""><img src="../images/subscriprion.png"><p>Subscriprion</p></a>
+        <a href=""><img src="../images/library.png"><p>Library</p></a>
+        <a href=""><img src="../images/history.png"><p>History</p></a>
+        <a href=""><img src="../images/playlist.png"><p>Playlist</p></a>
+        <a href=""><img src="../images/messages.png"><p>Messages</p></a>
+        <a href=""><img src="../images/show-more.png"><p>Show More</p></a>
+        <hr>
+    </div>
+    <div class="subscribed-list">
+        <h3>SUBSCRIBED</h3>
+        <a href=""><img src="../images/Justin.png"><p>Justin Bieber</p></a>
+        <a href=""><img src="../images/Gabriel.png"><p>Gabriel Nick</p></a>
+        <a href=""><img src="../images/Alan.png"><p>Alan Walker</p></a>
+        <a href=""><img src="../images/Park.png"><p>Park Shin Hye</p></a>
+        <a href=""><img src="../images/Lusi.png"><p>Lusi Ryan</p></a>
+    </div>
+</div>
+
+<!----------main----------->
+
+<div class="container">
+    <div class="banner">
+       <img src="../images/banner1.png">
+    </div>
+<div class="list-cointainer">
+    <div class="vid-list">
+        <a href="play-video.html"><img src="../images/thumbnail1.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Justin.png">
+            <div class="vid-info">
+                <a href="play-video.html">Beautiful Sunset to Watch</a>
+                <p>Beauty of Maldives</p>
+                <p>100k Views &bull; 2 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail2.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Lusi.png">
+            <div class="vid-info">
+                <a href="play-video.html">Blue Sea Shore</a>
+                <p>Beauty of Maldives</p>
+                <p>110k Views &bull; 3 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail3.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Joseph.png">
+            <div class="vid-info">
+                <a href="play-video.html">Sameera Resorts</a>
+                <p>Beauty of Maldives</p>
+                <p>200k Views &bull; 4 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail4.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Park.png">
+            <div class="vid-info">
+                <a href="play-video.html">Cradle View</a>
+                <p>Beauty of Maldives</p>
+                <p>210k Views &bull; 4 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail5.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Gabriel.png">
+            <div class="vid-info">
+                <a href="play-video.html">Sunset reflection on shore</a>
+                <p>Beauty of Maldives</p>
+                <p>250k Views &bull; 5 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail6.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Alan.png">
+            <div class="vid-info">
+                <a href="play-video.html">Wedding arrangements in Maldives</a>
+                <p>Beauty of Maldives</p>
+                <p>300k Views &bull; 5 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail7.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/w.png">
+            <div class="vid-info">
+                <a href="play-video.html">Mystry in Maldives</a>
+                <p>Beauty of Maldives</p>
+                <p>500k Views &bull; 6 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail8.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/feature-4.png">
+            <div class="vid-info">
+                <a href="play-video.html">Top 5 places to visit Maldives</a>
+                <p>Beauty of Maldives</p>
+                <p>206k Views &bull; 3 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail9.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Justin.png">
+            <div class="vid-info">
+                <a href="play-video.html">Top 5 movies shot in Maldives</a>
+                <p>Beauty of Maldives</p>
+                <p>500k Views &bull; 8 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail10.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Lusi.png">
+            <div class="vid-info">
+                <a href="play-video.html">Purple sky view</a>
+                <p>Beauty of Maldives</p>
+                <p>610k Views &bull; 8 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail11.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Joseph.png">
+            <div class="vid-info">
+                <a href="play-video.html">How clear are water in Maldives?</a>
+                <p>Beauty of Maldives</p>
+                <p>700k Views &bull; 10 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail12.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Park.png">
+            <div class="vid-info">
+                <a href="play-video.html">Nature friendly resorts</a>
+                <p>Beauty of Maldives</p>
+                <p>900k Views &bull; 10 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail13.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Gabriel.png">
+            <div class="vid-info">
+                <a href="play-video.html">A mid-day view</a>
+                <p>Beauty of Maldives</p>
+                <p>400k Views &bull; 9 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail14.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Alan.png">
+            <div class="vid-info">
+                <a href="play-video.html">Wooden Rooms</a>
+                <p>Beauty of Maldives</p>
+                <p>300k Views &bull; 7 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail15.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/w.png">
+            <div class="vid-info">
+                <a href="play-video.html">Veligandu Island</a>
+                <p>Beauty of Maldives</p>
+                <p>906k Views &bull; 11 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail16.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/feature-4.png">
+            <div class="vid-info">
+                <a href="play-video.html">City of Beauty</a>
+                <p>Beauty of Maldives</p>
+                <p>1M Views &bull; 12 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail17.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Justin.png">
+            <div class="vid-info">
+                <a href="play-video.html">Night View</a>
+                <p>Beauty of Maldives</p>
+                <p>2M Views &bull; 12 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail18.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Lusi.png">
+            <div class="vid-info">
+                <a href="play-video.html">Golden View</a>
+                <p>Beauty of Maldives</p>
+                <p>1.2M Views &bull; 15 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail19.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Joseph.png">
+            <div class="vid-info">
+                <a href="play-video.html">My Trip to Maldives</a>
+                <p>Beauty of Maldives</p>
+                <p>600k Views &bull; 20 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail20.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Park.png">
+            <div class="vid-info">
+                <a href="play-video.html">Photoshoot</a>
+                <p>Beauty of Maldives</p>
+                <p>2.5M Views &bull; 20 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail21.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Gabriel.png">
+            <div class="vid-info">
+                <a href="play-video.html">Mountain View</a>
+                <p>Beauty of Maldives</p>
+                <p>2M Views &bull; 12 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail22.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/Alan.png">
+            <div class="vid-info">
+                <a href="play-video.html">A day in fishers life</a>
+                <p>Beauty of Maldives</p>
+                <p>1.2M Views &bull; 6 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail23.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/w.png">
+            <div class="vid-info">
+                <a href="play-video.html">Island</a>
+                <p>Beauty of Maldives</p>
+                <p>960k Views &bull; 6 days</p>
+            </div>
+        </div>
+    </div>
+    <div class="vid-list">
+        <a href=""><img src="../images/thumbnail24.png" class="thumbnail"></a>
+        <div class="flex-div">
+            <img src="../images/feature-4.png">
+            <div class="vid-info">
+                <a href="play-video.html">Sand Beauty</a>
+                <p>Beauty of Maldives</p>
+                <p>900k Views &bull; 5 days</p>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+</div>
+
+    
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+#CSS
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 3px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+}
+.nav-right .user-icon{
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-left .menu-icon{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .logo1{
+    width: 130px;
+}
+.nav-middle .mic-icon{
+    width: 16px;
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.nav-middle .search-box  img{
+    width: 15px;
+}
+/* -------------sidebar---------- */
+
+.sidebar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut-links a:first-child{
+    color:#ed3833;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.subscribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subscribed-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.subscribed-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar a p{
+    display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+/*-------main-----*/
+
+.container{
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.large-container{
+    padding-left: 7%;
+}
+
+
+
+
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+.list-cointainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.vid-list .thumbnail{
+    width: 100%;
+    border-radius: 5px;
+}
+.vid-list .flex-div{
+    align-items: flex-start;
+    margin-top: 7px;
+}
+.vid-list .flex-div img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.vid-info{
+    color: #5a5a5a;
+    font-size: 13px;
+}
+.vid-info a{
+    color: #000;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+
+@media (max-width: 900px){
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: none;
+        width: 30px;
+    }
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+    .nav-middle .mic-icon{
+        display: none;
+    }
+    .logo1{
+        width: 90px;
+    }
+}
+
+/*-----------------play video page------------*/
+.play-container{
+    padding-left: 2%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.play-video{
+    flex-basis: 69%;
+}
+.right-sidebar{
+    flex-basis: 30%;
+}
+.play-video video{
+    width: 100%;
+}
+
+.side-video-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.side-video-list img{
+    width: 100%;
+}
+.side-video-list .small-thumbnail{
+    flex-basis: 49%;
+}
+.side-video-list .vid-info{
+    flex-basis: 49%;
+}
+.play-video .tags a{
+    color: #0000ff;
+    font-size: 13px;
+}
+.play-video h3{
+    font-weight: 600;
+    font-size: 22px;
+}
+.play-video .play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.play-video .play-video-info a img{
+    width: 20px;
+    margin-right: 8px;
+}
+.play-video .play-video-info a{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.play-video hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+.plublisher{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.plublisher div{
+    flex: 1;
+    line-height: 18px;
+}
+.plublisher img{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.plublisher div p{
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.plublisher div span{
+    font-size: 13px;
+    color: #5a5a5a;
+}
+.plublisher button{
+    background: red;
+    color: #fff;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.vid-description{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+.vid-description p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
+.vid-description h4{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-top: 15px;
+}
+.add-comment{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.add-comment img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.add-comment input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-top: 10px;
+    background: transparent;
+}
+.old-comment{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.old-comment img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.old-comment h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.old-comment h3 span{
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.old-comment .acomment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.old-comment .acomment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.old-comment .acomment-action span{
+    margin-right: 20px;
+    color: #5a5a5a;
+}
+.old-comment .acomment-action a{
+    color: #0000ff;
+}
+
+@media (max-width:900px){
+    .play-video{
+        flex-basis: 100%;
+    }
+    .right-sidebar{
+        flex-basis: 100%;
+    }
+    .play-container{
+        padding-left: 5%;
+    }
+    .vid-description{
+        padding-left: 0;
+    }
+    .play-video .play-video-info a{
+        margin-left: 0;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+}
+
+
+
+#JavaScript
+
+
+
+var menuIcon = document.querySelector(".menu-icon");
+var sidebar = document.querySelector(".sidebar");
+var container = document.querySelector(".container");
+
+menuIcon.onclick = function(){
+    sidebar.classList.toggle("small-sidebar");
+    container.classList.toggle("large-container");
+}
+
+
+
+#PlayVideo.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Video - Simple Tutorials Youtube Channel</title>
+    <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <nav class="flex-div">
+            <div class="nav-left flex-div">
+                <img src="../images/menu.png" class="menu-icon">
+                <img src="../images/logo1.png" class="logo1">
+            </div>
+            <div class="nav-middle flex-div">
+                <div class="search-box flex-div">
+                  <input type="text" placeholder="Search">
+                  <img src="../images/search.png">
+                </div>
+                <img src="../images/voice-search.png" class="mic-icon">
+            </div>
+            <div class="nav-right flex-div">
+                <img src="../images/upload.png">
+                <img src="../images/more.png">
+                <img src="../images/notification.png">
+                <img src="../images/w.png" class="user-icon">
+            </div>
+        </nav>
+
+<div class="container play-container">
+    <div class="row">
+        <div class="play-video">
+            <video controls autoplay>
+                <source src="../images/video.mp4" type="video/mp4">
+            </video>
+            <div class="tags">
+                <a href="">#Beauty</a>  <a href="">#Peace</a>  <a href="">#Nature</a>  <a href="">#Enjoyment</a>
+            </div>
+            <h3>A Trip to Maldives</h3>
+            <div class="play-video-info">
+                <p>1225 Views &bull; 2 days ago</p>
+                <div>
+                    <a href=""><img src="../images/like.png">125</a>
+                    <a href=""><img src="../images/dislike.png">2</a>
+                    <a href=""><img src="../images/share.png">Share</a>
+                    <a href=""><img src="../images/save.png">Save</a>
+                </div>
+            </div>
+            <hr>
+            <div class="plublisher">
+                <img src="../images/w.png">
+                <div>
+                    <p>Beauty of Maldives</p>
+                     <span>500k Subscribers</span>
+                </div>
+                <button type="button">Subscribe</button>
+            </div>
+            <div class="vid-description">
+                <p>Channel that makes to explore Maldives in Virtual</p>
+                <p>Subscribe Beauty of Maldives to watch more videos</p>
+                <hr>
+                <h4>134 Comments</h4>
+
+                <div class="add-comment">
+                    <img src="../images/w.png">
+                    <input type="text" placeholder="write comments...">
+                </div>
+                <div class="old-comment">
+                    <img src="../images/Alan.png">
+                    <div>
+                        <h3>Alan Walker <span>2 days ago</span></h3> 
+                        <p>Everything about this video is simply perfect.I hope this channel never ends and keeps spreading happiness. 
+                            Whoever is reading this, I hope this day will be a great day. </p> 
+                            <div class="acomment-action">
+                                <img src="../images/like.png">
+                                <span>244</span>
+                                <img src="../images/dislike.png">
+                                <span>2</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="old-comment">
+                    <img src="../images/Joseph.png">
+                    <div>
+                        <h3>Joseph Morgan <span>3 days ago</span></h3> 
+                        <p>Everything about this video is simply perfect.I hope this day will be a great day. </p> 
+                            <div class="acomment-action">
+                                <img src="../images/like.png">
+                                <span>260</span>
+                                <img src="../images/dislike.png">
+                                <span>1</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="old-comment">
+                    <img src="../images/Park.png">
+                    <div>
+                        <h3>Park Shin Hye <span>4 days ago</span></h3> 
+                        <p>I like this video a lot.It's just too good.Have a great day. </p> 
+                            <div class="acomment-action">
+                                <img src="../images/like.png">
+                                <span>300</span>
+                                <img src="../images/dislike.png">
+                                <span>0</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="old-comment">
+                    <img src="../images/Justin.png">
+                    <div>
+                        <h3>Justin Bieber<span>4 days ago</span></h3> 
+                        <p>It's a gorgeous Island to visit. </p> 
+                            <div class="acomment-action">
+                                <img src="../images/like.png">
+                                <span>500</span>
+                                <img src="../images/dislike.png">
+                                <span>0</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="old-comment">
+                    <img src="../images/Gabriel.png">
+                    <div>
+                        <h3>Gabriel(Nick)<span>4 days ago</span></h3> 
+                        <p>Maldives is lub. </p> 
+                            <div class="acomment-action">
+                                <img src="../images/like.png">
+                                <span>600</span>
+                                <img src="../images/dislike.png">
+                                <span>2</span>
+                                <span>REPLY</span>
+                                <a href="">All Replies</a>
+                            </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="right-sidebar">
+
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail1.png"></a>
+                <div class="vid-info">
+                    <a href="">Beautiful Sunset to Watch</a>
+                    <p>Beauty of Maldives</p>
+                    <p>100k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail2.png"></a>
+                <div class="vid-info">
+                    <a href="">Blue Sea Shore</a>
+                    <p>Beauty of Maldives</p>
+                    <p>110k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail3.png"></a>
+                <div class="vid-info">
+                    <a href="">Sameera Resorts</a>
+                    <p>Beauty of Maldives</p>
+                    <p>200k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail4.png"></a>
+                <div class="vid-info">
+                    <a href="">Cradle View</a>
+                    <p>Beauty of Maldives</p>
+                    <p>210k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail5.png"></a>
+                <div class="vid-info">
+                    <a href="">Sunset reflection on shore</a>
+                    <p>Beauty of Maldives</p>
+                    <p>250k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail6.png"></a>
+                <div class="vid-info">
+                    <a href="">Wedding arrangements in Maldives</</a>
+                    <p>Beauty of Maldives</p>
+                    <p>300k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail7.png"></a>
+                <div class="vid-info">
+                    <a href="">Mystry in Maldives</a>
+                    <p>Beauty of Maldives</p>
+                    <p>500k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail8.png"></a>
+                <div class="vid-info">
+                    <a href="">Top 5 places to visit Maldives</a>
+                    <p>Beauty of Maldives</p>
+                    <p>206k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail9.png"></a>
+                <div class="vid-info">
+                    <a href="">Top 5 movies shot in Maldives</a>
+                    <p>Beauty of Maldives</p>
+                    <p>500k Views</p>
+                </div>
+        
+            </div>
+            <div class="side-video-list">
+                <a href=""class="small-thumbnail"><img src="../images/thumbnail10.png"></a>
+                <div class="vid-info">
+                    <a href="">Purple sky view</a>
+                    <p>Beauty of Maldives</p>
+                    <p>610k Views</p>
+                </div>
+        
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+    </body>
+    </html>
